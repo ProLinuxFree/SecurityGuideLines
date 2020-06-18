@@ -1,8 +1,5 @@
 #! /bin/bash
 #Color Scheme for the Echo Out Put#
-#RED='\033[0;31m'
-#Green='\033[0;32m'
-#NC='\033[0m' # No Color
 red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
