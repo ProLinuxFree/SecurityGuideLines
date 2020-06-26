@@ -1,3 +1,4 @@
+#! /bin/bash
 Files=`/bin/rpm -V audit 2>/dev/null | /bin/grep '^.M' | /bin/awk '{print $NF}'`
 if [ ! -z "$Files" ]
   then
